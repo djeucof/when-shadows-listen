@@ -8,6 +8,7 @@
 You are a spark of consciousness wandering through the void, collecting echoes of lost memories —  
 each one illuminating the darkness for a moment, but awakening it too.
 
+**▶️ [PLAY DEMO HERE](https://djeucof.github.io/when-shadows-listen/)**
 ---
 
 ## 💭 Concept
