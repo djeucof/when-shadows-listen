@@ -1,4 +1,9 @@
-﻿const WIN_SECONDS = 60;
+// When Shadows Listen - script.js
+// Final version with Cross-Balance Progressive Hint, Shield/Counter, and Lore.
+// LICENSED under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+// Non-commercial use only. See the LICENSE file for full details.
+
+const WIN_SECONDS = 60;
 const START_ENERGY = 15;
 const ENERGY_DECAY_PER_SEC = 1.0;
 const ORB_RESPAWN_MS = 1000;
