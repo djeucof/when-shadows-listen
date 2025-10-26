@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>When Shadows Listen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="intro" class="overlay">
+      <h1>When Shadows Listen</h1>
+      <p class="story">
+        You are a spark of consciousness, lost in a world of shadows.<br />
+        The shadows are not enemies — but they listen, they move when you do.<br /><br /><br />
+        To survive, you must find rhythm between the memories, seeking light
+        from side to side to maintain your inner balance.<br />
+        Each memory strengthens your pulse, but the constant need for movement
+        brings the darkness closer.
+      </p>
+
+      <div class="legend" id="intro-legend">
+        <strong>Orbs (what they do):</strong>
+        <div>🔵 <b>Blue</b> — Memory: +3 Energy</div>
+        <div>🟢 <b>Green</b> — Breath: +Energy & slightly +Speed</div>
+        <div>🔴 <b>Red</b> — Passion: +4 Energy, but Shadow grows faster</div>
+        <div>⭐ <b>White (rare)</b> — Pure Memory: big energy boost + Lore</div>
+      </div>
+
+      <p class="controls" id="intro-controls">
+        Controls: <b>WASD</b> or <b>Arrow keys</b> — move. <b>Mouse</b> —
+        optional (follow).<br />
+        Hold <b>Space</b> near the Shadow for Immunity (costs Energy).<br />
+        Win by surviving <span id="winSecondsText">60</span> seconds.
+      </p>
+
+      <div class="start-row">
+        <button id="startBtn">Begin</button>
+        <label
+          ><input id="mouseToggle" type="checkbox" /> Use mouse control</label
+        >
+      </div>
+    </div>
+
+    <div id="ui">
+      <div class="left">
+        <div>Energy: <span id="energy">0</span></div>
+        <div>Time: <span id="time">0.0</span>s</div>
+      </div>
+      <div class="right">
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+
+    <div id="message" class="message"></div>
+    <div id="balance-hint"></div>
+
+    <canvas id="game"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
